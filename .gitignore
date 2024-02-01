@@ -4,3 +4,4 @@ __pycache__/
 **/*.pyc
 
 hdf5_test_new
+generation/result/
