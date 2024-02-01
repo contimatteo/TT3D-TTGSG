@@ -1,7 +1,7 @@
 !.gitkeep
 
 __pycache__/
-**/*.pyc
+*.py[cod]
 
 hdf5_test_new
 generation/result/
