@@ -18,6 +18,7 @@ ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/hdf5_test_new ./
 
 unzip -jn /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoint.zip -d /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoints/
 ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoints/res64.model64-199.pth generation/checkpoint/color_all_ae_64/res64.model64-199.pth
+ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoints/div.model64-149.pth generation/checkpoint/color_all_ae_64/div.model64-149.pth
 
 
 ###
