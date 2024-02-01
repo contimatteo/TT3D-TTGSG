@@ -1,6 +1,6 @@
 !.gitkeep
 
-__pycache__/
+**/__pycache__
 *.py[cod]
 
 hdf5_test_new
