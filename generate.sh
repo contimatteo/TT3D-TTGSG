@@ -6,7 +6,7 @@ exit 0
 
 ###
 
-rm -rf generation/checkpoint/color_all_ae_64/
+# rm -rf generation/checkpoint/color_all_ae_64/
 # mkdir -p generation/checkpoint/color_all_ae_64/
 rm -rf hdf5_test_new
 # mkdir hdf5_test_new
@@ -25,8 +25,7 @@ unzip -jn /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoint.zip -
 # mkdir -p /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoint/color_all_ae_64/
 # mv /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/color_all_ae_64/ /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoint/
 # ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoint/color_all_ae_64/ generation/checkpoint/
-ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoint/color_all_ae_64/res64.model64-199.pth generation/checkpoint/color_all_ae_64/ res64.model64-199.pth
-
+ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoints/res64.model64-199.pth generation/checkpoint/color_all_ae_64/res64.model64-199.pth
 
 
 
