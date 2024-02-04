@@ -27,8 +27,7 @@ ln -s /media/data2/mconti/TT3D/checkpoints/TTGSG/generation/checkpoints/div.mode
 cd generation/
 CUDA_VISIBLE_DEVICES=2 python main.py \
   --res64 \
-  --sample_dir \
-  samples/im_ae_out \
+  --sample_dir samples/im_ae_out \
   --start 0 \
   --end 7454
 cd ..
